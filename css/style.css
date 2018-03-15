@@ -28,7 +28,7 @@ time, mark, audio, video {
 
 /* body styling */
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   background-color: #eee;
 }
 
@@ -141,6 +141,7 @@ hr {
 /* media query for PC */
 @media only screen
   and (min-device-width: 1200px)
+{
 
   .intro {
     display: flex;
@@ -156,7 +157,8 @@ hr {
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (-webkit-min-device-pixel-ratio: 1)
+{
 
   .intro {
     display: flex;
@@ -180,12 +182,13 @@ hr {
 
 /* media query for mobile */
 @media only screen
-  and (max-device-width: 700px) {
+  and (max-device-width: 700px)
+{
 
   .intro {
     display: flex;
     align-items: center;
-   }
+  }
 
   .intro-bigtext {
     font-size: 60px;
